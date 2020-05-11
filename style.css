@@ -2,7 +2,7 @@ body{
   margin: 0;
   font-family: Ubuntu;
   height: 80em;
-  background: #eee;
+  background: transparent;
 }
 .error{
   position: absolute;
