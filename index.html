@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -140,13 +139,23 @@
 			</div>
 			
 		</div>
-
+		<button class="print" onclick="imprimirCv()"><i class="fas fa-print"></i> IMPRIMIR</button>
 
 	<footer>
 		<p>&lt;/&gt; BRUNO | <span> 2019 </span></p>	
 	</footer>
 
 	 <script>
+	 	function imprimirCv(){
+	 		$('.adbphtshp, .aftreffcts').tooltip({position: { my: "center", at: "center" }}).tooltip("close")
+	 		$('.wbdsgn button, .description button').trigger('click')
+	 		setTimeout(function(){
+	 			window.print();
+	 		},200)
+		}
+	 	
+
+
 		//FOOTER YEAR
 		var data = new Date();
 		var ano = data.getDate();
@@ -221,8 +230,5 @@
 		 	$('.wpp, .email').removeClass('scale')
 		 }
 	</script>
-
 </body>
-
 </html>
-
