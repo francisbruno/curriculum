@@ -1,0 +1,64 @@
+.email{
+  position: absolute;
+  background: white;
+  box-shadow: 0 0 30px rgba(0,0,0,.1);
+  padding: 20px;
+  border-radius: 20px;
+  padding-bottom: 15px;
+  width: 400px;
+  transform:scale(0);
+  transition: .3s
+}
+.email.scale{
+  transform:scale(1);
+  transition: .3s
+}
+.email form{
+  box-shadow: inset 0px 0px 5px rgba(0,0,0,.2);
+  -webkit-box-shadow: inset 0px 0px 5px rgba(0,0,0,.2);
+    -moz-box-shadow: inset 0px 0px 5px rgba(0,0,0,.2);
+  width: 380px;
+  height: 250px;
+  border-radius: 10px;
+  padding: 10px
+}
+
+.email textarea{
+  border: 0;
+  background: #eee;
+  width: 95%;
+  height: 75%;
+  z-index: 999;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  resize: none;
+  margin-top: 8px
+}
+
+.email a{
+  z-index: 99;
+  position: relative;
+  float: right;
+}
+
+.email button{
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  border: 0;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  border-radius: 50px;
+  background: #ddd;
+  height: 30px;
+  width: 30px;
+  cursor:pointer;
+}
+  
+#subject{
+    border-radius: 10px;
+    background: #eee;
+  width: 95%;
+  border: 0;
+  padding: 10px;
+  }

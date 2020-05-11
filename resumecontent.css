@@ -1,0 +1,47 @@
+.resume-content{
+  color: #999;
+  padding: 40px
+}
+
+h2{
+  color: #333;
+}
+
+.header{
+  border-bottom: 1px solid #ddd;
+}
+
+h3 span{
+  font-weight: 100;
+  font-size: 16px
+}
+
+.xp p{
+ margin-left: 20px;
+  line-height: .01
+}
+
+
+.xp .description{
+  height: 9px;
+  overflow: hidden;
+  padding: 20px;
+  font-size: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.description button{
+  float: right;
+  border: 0;
+  background: transparent;
+}
+
+strong{
+  background: #eee;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  font-weight: 100;
+  color: #999;
+  transform: translateY(-3.59pc)
+}
