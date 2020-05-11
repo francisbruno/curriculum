@@ -44,8 +44,8 @@ footer p{
   background: #fff;
   position: absolute;
   left: 50%;
-  top: 65%;
-  transform: translate(-50%,-50%);
+  top: 0%;
+  transform: translate(-50%,.5%);
   display: flex;
   border: 1px solid #ccc;
   border-radius: 8px;
