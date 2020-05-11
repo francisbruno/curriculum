@@ -2,7 +2,7 @@ body{
   margin: 0;
   font-family: Ubuntu;
   height: 80em;
-  background: transparent;
+  background: #fff;
 }
 .error{
   position: absolute;
@@ -67,3 +67,37 @@ footer p{
   width: 14.5cm;
 }
 
+.print{
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  padding:20px;
+  border:0;
+  border-radius:50px;
+  box-shadow:0 0 30px rgba(0,0,0,.1);
+  color:white;
+  background:#333
+}
+@page {
+  size: A4;
+  margin: 0;
+}
+@media print {
+  .resume-body{
+    border: none !important;
+    box-shadow:0 0 0 white;
+    -webkit-print-color-adjust: exact; 
+    transform: scale(1.1) translate(-50%,10%)
+  }
+  .print, footer{
+    display: none;
+  }
+  .wbdsgn{
+    height: 100px !important;
+  }
+  .ui-tooltip-content{
+    opacity: 0 !important;;
+    display: none;
+    visibility: hidden;
+  }
+}
