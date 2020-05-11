@@ -87,7 +87,7 @@ footer p{
     border: none !important;
     box-shadow:0 0 0 white;
     -webkit-print-color-adjust: exact; 
-    transform: scale(0.9) translate(-55%,-3%)
+    transform: scale(1) translate(-50%,1.5%)
   }
   .print, footer{
     display: none;
