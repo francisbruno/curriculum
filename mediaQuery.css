@@ -1,0 +1,35 @@
+@media screen and (max-width:810px){
+  .resume-body{
+    width: 100% !important;
+    height: 100%;
+    border: 0 !important;
+    border-radius: 0;
+  }
+  .resume-content span, .resume-content{
+    font-size: 12px;
+  }
+  .right-sidebar{
+    font-size:10px;
+    width: 25%;
+  }
+  .caracteristica p{
+    font-size: 10px !important;
+  }
+  .skills progress{
+    width: 70%;
+    height: 12px;
+  }
+  .wbbar{
+    width: 185px !important;
+  }
+  .ui-tooltip-content{
+    transform: translateY(-11.4pc) translateX(1.1pc);
+    font-size:8px;
+  }
+  .skills{
+    height: 100px !important;
+  }
+  .right-sidebar .footer{
+    transform: translateX(-2pc)
+  }
+}

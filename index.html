@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="wppPopup.css">
 	<link rel="stylesheet" type="text/css" href="emailPopup.css">
 	<link rel="stylesheet" type="text/css" href="resumecontent.css">
+	<link rel="stylesheet" type="text/css" href="mediaQuery.css">
 	<link rel="stylesheet" type="text/css" href="jquery-ui.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
 	<script src="jquery.js"></script>
@@ -78,8 +79,8 @@
 						<progress value="0" max="100" class="aftreffcts" title="After Effects">70</progress><br><br>
 
 						<div class="wbdsgn"><div class="wbbar"></div>WEB ++<button>+</button>
-							<progress value="0" max="100" class="html" id="html" title="HTML">90</progress>
-							<progress value="0" max="100" class="css" id="css" title="CSS">90</progress>
+							<progress value="0" max="100" class="html" id="html" title="HTML">90</progress><br>
+							<progress value="0" max="100" class="css" id="css" title="CSS">90</progress><br>
 							<progress value="0" max="100" class="js" id="js" title="Javascript...">75</progress>
 						</div>
 
@@ -152,7 +153,6 @@
 
 	 <script>
 	 	function imprimirCv(){
-	 		$('.adbphtshp, .aftreffcts').tooltip({position: { my: "center", at: "center" }}).tooltip("close")
 	 		$('.wbdsgn button, .description button').trigger('click')
 	 		setTimeout(function(){
 	 			window.print();
@@ -208,7 +208,7 @@
 				setTimeout(function(){
 					$('.error, .overlay').fadeOut('fast')},1500)
 			}else{
-				$(this).attr('href','https://wa.me/5519987356822?text='+$('textarea').val()).attr('target','_blank')}
+				$(this).attr('href','https://wa.me/5519998093416?text='+$('textarea').val()).attr('target','_blank')}
 		})
 
 
@@ -234,6 +234,12 @@
 		 function closeWpp(){
 		 	$('.wpp, .email').removeClass('scale')
 		 }
+
+		 
+		 if($(window).width() < 810){
+		 	$('.wbdsgn').animate({height: 100},200)
+		}
+
 	</script>
 
 </body>
