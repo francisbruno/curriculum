@@ -130,11 +130,12 @@ footer p{
   margin: 0;
 }
 @media print {
-  .resume-body{
+ .resume-body{
     border: none !important;
     box-shadow:0 0 0 white;
     -webkit-print-color-adjust: exact; 
-    transform: scale(1.1) translate(-50%,10%)
+    transform: scale(.65) translate(-77.4%,-25.4%);
+    filter: grayscale(1)
   }
   .print, footer{
     display: none;
