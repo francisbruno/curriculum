@@ -2,7 +2,7 @@
   margin-right: 20px
 }
 .right-sidebar div *{
-  color: #999;
+  color: #fff;
   text-decoration: none;
 }
 .right-sidebar p{
@@ -16,7 +16,8 @@
   font-size: 11px;
   border: 0;
   border-radius: 20px !important;
-  background: #ddd;
+  background: rgba(255,255,255,.1);
+  pointer-events: none;
 }
 progress[value]::-webkit-progress-bar{
   width: 100%;
@@ -25,15 +26,15 @@ progress[value]::-webkit-progress-bar{
   font-size: 11px;
   border: 0;
   border-radius: 20px !important;
-  background: #ddd;
+  background: #eee;
 }
 progress[value]::-moz-progress-bar{
-  background: #999;
+  background: #eee;
   border-radius: 20px;
 }
 
 progress[value]::-webkit-progress-value{
-  background: #999;
+  background: #eee;
   border-radius: 20px;
   
 }
@@ -55,13 +56,13 @@ progress[value]::-webkit-progress-value{
   float:right ;
   background: transparent;
   border: 0;
-  color: black;
+  color: white;
   cursor: pointer;
 }
 .wbbar{
   width: 50px;
   height: 18px;
-  background: grey;
+  background: rgba(255,255,255,.1);
   position: absolute;
   border-radius: 20px;
   mix-blend-mode:  color-burn;

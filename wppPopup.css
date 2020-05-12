@@ -33,14 +33,20 @@
   outline: none;
   padding: 10px;
   resize: none;
+  color: #333;
 }
 
 .wpp a{
   z-index: 99;
   position: relative;
   float: right;
+  color: #333;
 }
-
+.wpp p{
+  color: #333;
+  padding: 5px;
+  text-align: center;
+}
 .wpp button{
   position: absolute;
   right: -10px;

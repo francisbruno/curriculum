@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,6 +23,7 @@
 
 		<div class="resume-container">
 			<div class="resume-body">
+				<div class="effect"></div>
 				<div class="right-sidebar">
 					<div class="contact">
 						<h3>CONTATO</h3>
@@ -31,6 +33,7 @@
 
 						 <div class="wpp">
 						 	<button onclick="closeWpp()">X</button>
+						 	<p>Enviar mensagem para: 19.99809.3416</p>
 						 	<form>
 						 		<textarea placeholder="Olá Bruno" ></textarea>
 						 	</form>
@@ -39,6 +42,7 @@
 
 						 <div class="email">
 						 	<button onclick="closeWpp()">X</button>
+						 	<p>Enviar mensagem para: bruno.f.c@icloud.com</p>
 						 	<form>
 						 		<input id="subject" type="text" name="email" placeholder="Assunto/Subject">
 						 		<textarea placeholder="Olá Bruno" ></textarea>
@@ -136,10 +140,11 @@
 					</div>
 
 				</div>
+				<button class="print" onclick="imprimirCv()"><i class="fas fa-print"></i> IMPRIMIR</button>
 			</div>
 			
 		</div>
-		<button class="print" onclick="imprimirCv()"><i class="fas fa-print"></i> IMPRIMIR</button>
+		
 
 	<footer>
 		<p>&lt;/&gt; BRUNO | <span> 2019 </span></p>	
@@ -230,5 +235,8 @@
 		 	$('.wpp, .email').removeClass('scale')
 		 }
 	</script>
+
 </body>
+
 </html>
+
